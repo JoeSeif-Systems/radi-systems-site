@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" id="home">
       <Row className="align-items-center">
         <Col md={6}>
           <Image 
@@ -13,8 +13,10 @@ const Home = () => {
           />
         </Col>
         <Col md={6}>
+          <div className='text-center'>
           <h2>Who are We</h2>
           <p>AI Powered</p>
+          </div>
           <p>
             The RADI System is a cutting-edge AI-powered tracking platform designed to provide seamless cross-platform asset management. Whether you're tracking vehicles, equipment, or personnel, our intelligent system ensures real-time monitoring, predictive analytics, and enhanced security.
           </p>

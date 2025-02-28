@@ -15,7 +15,7 @@ const ContactUs = () => {
   };
 
   return (
-    <Container className="mt-5 mb-3">
+    <Container className="mt-5 mb-3" id="support">
       <Row className="align-items-center">
         {/* Left Side - Contact Info */}
         <Col md={6}>

@@ -8,10 +8,10 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/">Radi</Nav.Link>
-            <Nav.Link href="/about">Who are we</Nav.Link>
-            <Nav.Link href="/contact">Support</Nav.Link>
-            <Nav.Link href="/contact">Qoute</Nav.Link>
+            <Nav.Link href="#home">Radi</Nav.Link>
+            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link href="#ask">Qoute</Nav.Link>
+            <Nav.Link href="#support">Support</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
