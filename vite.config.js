@@ -1,11 +1,17 @@
+// https://vite.dev/config/
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: "all", // Allows all hosts
+    allowedHosts: [
+      "radisystems.online",
+      "www.radisystems.online",
+      "localhost",
+      "127.0.0.1",
+      "206.189.8.67",
+    ], // Allow the specific host
   },
 });
