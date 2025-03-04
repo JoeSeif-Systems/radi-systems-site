@@ -12,7 +12,7 @@ const NavbarComponent = () => {
             <Nav.Link href="#team">Team</Nav.Link>
             <Nav.Link href="#ask">Qoute</Nav.Link>
             <Nav.Link href="#support">Support</Nav.Link>
-            <Nav.Link href="http://206.189.8.67:81">System</Nav.Link>
+            <Nav.Link href="http://radisystems.online:81">System</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
